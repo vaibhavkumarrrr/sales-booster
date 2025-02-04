@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\style.css">
+    <script src="static\buffer.js"></script>
+    <link rel="icon" href="static\CMGlogo.png" type="image/x-icon">
+
+
+    <title>Cold Email Generator</title>
+    
+</head>
+<body>
+
+    <div class="container" >
+        <h1>Cold Email Generator</h1>
+        <p>
+            Welcome to the Cold Email Generator! This tool helps you craft personalized and professional cold emails for job applications. 
+            Simply enter the job listing URL below, and the tool will analyze the job description, extract key skills and responsibilities, 
+            and generate a compelling email tailored to the job. It also includes relevant portfolio links to showcase your expertise.
+        </p>
+        <p>
+            <strong>How to Use:</strong><br>
+            1. Copy the job listing URL from the job board.<br>
+            2. Paste the URL into the input field below.<br>
+            3. Click "Generate Email" and wait for the magic to happen!<br>
+            4. Review the generated email and customize it further if needed.
+        </p>
+        <input type="text" id="job-url" placeholder="Paste job listing URL here">
+        <button onclick="processJob()">Generate Email</button>
+        
+        <div class="loader" id="loader"></div>
+        <div class="email-output" id="output"></div>
+    </div>
+
+   <footer>Developed by Vaibhav!</footer>
+
+</body>
+</html>
