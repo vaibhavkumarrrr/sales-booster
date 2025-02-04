@@ -110,6 +110,3 @@ chromedriver_path = "C://path_to//chromedriver.exe"
 -   Improve portfolio link ranking.
 -   Deploy on cloud platforms (AWS/GCP/Heroku).
 
-## License
-
-This project is licensed under the **MIT License**.
